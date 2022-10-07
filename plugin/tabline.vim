@@ -2,7 +2,7 @@
 " Name:   tabline.vim
 " Author: Luke Davis (lukelbd@gmail.com)
 " Date:   2018-09-03
-" A simple, minimal, black-and-white tabline that helps keep focus on the
+" A simple, minimal tabline that helps keep focus on the
 " content and syntax coloring in the *document*, and accounts for long
 " filenames and many open tabs.
 "------------------------------------------------------------------------------
@@ -131,6 +131,3 @@ endfunction
 " Settings and highlight groups
 set tabline=%!Tabline()
 let &showtabline = &showtabline ? &showtabline : 1
-hi TabLine     ctermfg=White ctermbg=Black cterm=None
-hi TabLineFill ctermfg=White ctermbg=Black cterm=None
-hi TabLineSel  ctermfg=Black ctermbg=White cterm=None
